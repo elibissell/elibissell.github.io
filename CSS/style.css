@@ -1,0 +1,89 @@
+.inline-block ul {
+    display: inline-block;
+    vertical-align: top;
+    list-style-type: none;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: #555555;
+}
+
+header {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
+    margin-left: 2%;
+}
+
+.logo {
+    border-radius: none;
+    height: 50%;
+    width: 50%;
+}
+
+.headshot {
+    border-radius: 15px;
+    width: 30%;
+    height: 30%;
+    margin-right: 2%;
+    margin-left: 8%;
+    float: left;
+}
+
+.para {
+    font-size: 24px;
+    color:#555555;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+
+.button {
+    background-color:#618C78;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #f2efe9;
+    border: none;
+    width: 160px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.edu {
+    margin-top: 500px;
+    margin-left: 10px;
+}
+.skills{
+    margin-top: 500px;
+    margin-left: 1000px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 50% 50%;
+}
+
+.bubble {
+    margin-top: 20px;
+    background-color: #C4C4C4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.large {
+    width: 400px;
+    height: 40px;
+}
